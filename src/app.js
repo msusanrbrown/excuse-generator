@@ -34,6 +34,7 @@ window.onload = function ex_gen() {
   excuse = excuse + subject + " " + verb + " " + dirobj + " " + when1;
 
   console.log(excuse);
+  document.getElementById("demo").innerHTML = excuse;
 };
 
 //write your code here
